@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int first = 0;
+   int second = 0;
+   cout << "Please enter two integer numbers: ";
+   cin >> first >> second;
+
+
+
+   cout << "First_num == Second_num: " << (first == second) << endl;
+   cout << "First_num != Second_num: " << (first != second) << endl;
+   cout << "First_num > Second_num: " << (first > second) << endl;
+   cout << "First_num < Second_num: " << (first < second) << endl;
+   cout << "First_num >= Second_num: " << (first >= second) << endl;
+   cout << "First_num <= Second_num: " << (first <= second) << endl;
+
+
+
+    return 0;
+}

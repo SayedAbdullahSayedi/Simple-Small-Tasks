@@ -1,0 +1,18 @@
+#include <string>
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+   float Len_Rec = 25;
+   float Wid_Rec = 10;
+   float Area_Rec = 0;
+   Area_Rec = Len_Rec * Wid_Rec;
+
+
+   cout << "The rectangle's area is equal to: " << Area_Rec << endl;
+
+   
+    return 0;
+}

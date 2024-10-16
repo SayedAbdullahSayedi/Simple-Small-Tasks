@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    int numbers;
+    float decimalnumbers;
+    char alphabetic_numbers;
+    bool booleans;
+
+    cout << "please enter a number? ";
+    cin >> numbers;
+    cout << "the number you entered is: " << numbers << endl;
+    cout << "please enter a decimal number? ";
+    cin >> decimalnumbers;
+    cout << "the decimal number you entered is: " << decimalnumbers << endl;
+    cout << "please enter a character? ";
+    cin >> alphabetic_numbers;
+    cout << "the letter you entered is: " << alphabetic_numbers << endl;
+    cout << "please enter a boolean? ";
+    cin >> booleans;
+    cout << "the value you entered is boolean: " << booleans << endl;
+    return 0;
+}

@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   bool hot_weather = true;
+   bool sunny_weather = false;
+   cout << "The weather is hot and sunny: " << (hot_weather && sunny_weather) << endl;
+   cout << "The weather is either hot or sunny: " << (hot_weather || sunny_weather) << endl;
+   cout << "The weather is not hot: " << (!hot_weather) << endl;
+    return 0;
+}
